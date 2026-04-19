@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 
-# File: contacts.py
+# File: get_fields.py
 
 """
+Reads the BR&BC contacts list and sends the list of 
+keys to keys.csv
+
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames,
                     restval='', extrasaction='ignore')
 fieldnames:
